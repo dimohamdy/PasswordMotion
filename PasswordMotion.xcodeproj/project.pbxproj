@@ -1,0 +1,498 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		3D7A5156191972A2009B0DCA /* PDKeychainBindings.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D7A5153191972A2009B0DCA /* PDKeychainBindings.m */; };
+		3D7A5157191972A2009B0DCA /* PDKeychainBindingsController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D7A5155191972A2009B0DCA /* PDKeychainBindingsController.m */; };
+		3DA30D8F19182524009FE22B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DA30D8E19182524009FE22B /* Foundation.framework */; };
+		3DA30D9119182524009FE22B /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DA30D9019182524009FE22B /* CoreGraphics.framework */; };
+		3DA30D9319182524009FE22B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DA30D9219182524009FE22B /* UIKit.framework */; };
+		3DA30D9919182524009FE22B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3DA30D9719182524009FE22B /* InfoPlist.strings */; };
+		3DA30D9B19182524009FE22B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DA30D9A19182524009FE22B /* main.m */; };
+		3DA30D9F19182524009FE22B /* DHAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DA30D9E19182524009FE22B /* DHAppDelegate.m */; };
+		3DA30DA219182524009FE22B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3DA30DA019182524009FE22B /* Main.storyboard */; };
+		3DA30DA519182524009FE22B /* DHViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DA30DA419182524009FE22B /* DHViewController.m */; };
+		3DA30DA719182524009FE22B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3DA30DA619182524009FE22B /* Images.xcassets */; };
+		3DA30DAE19182524009FE22B /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DA30DAD19182524009FE22B /* XCTest.framework */; };
+		3DA30DAF19182524009FE22B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DA30D8E19182524009FE22B /* Foundation.framework */; };
+		3DA30DB019182524009FE22B /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DA30D9219182524009FE22B /* UIKit.framework */; };
+		3DA30DB819182524009FE22B /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 3DA30DB619182524009FE22B /* InfoPlist.strings */; };
+		3DA30DBA19182524009FE22B /* PasswordMotionTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DA30DB919182524009FE22B /* PasswordMotionTests.m */; };
+		3DA30DC419183066009FE22B /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3DA30DC319183066009FE22B /* CoreMotion.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		3DA30DB119182524009FE22B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 3DA30D8319182524009FE22B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3DA30D8A19182524009FE22B;
+			remoteInfo = PasswordMotion;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		3D7A5152191972A2009B0DCA /* PDKeychainBindings.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PDKeychainBindings.h; sourceTree = "<group>"; };
+		3D7A5153191972A2009B0DCA /* PDKeychainBindings.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PDKeychainBindings.m; sourceTree = "<group>"; };
+		3D7A5154191972A2009B0DCA /* PDKeychainBindingsController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PDKeychainBindingsController.h; sourceTree = "<group>"; };
+		3D7A5155191972A2009B0DCA /* PDKeychainBindingsController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PDKeychainBindingsController.m; sourceTree = "<group>"; };
+		3DA30D8B19182524009FE22B /* PasswordMotion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PasswordMotion.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DA30D8E19182524009FE22B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		3DA30D9019182524009FE22B /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		3DA30D9219182524009FE22B /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		3DA30D9619182524009FE22B /* PasswordMotion-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PasswordMotion-Info.plist"; sourceTree = "<group>"; };
+		3DA30D9819182524009FE22B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3DA30D9A19182524009FE22B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		3DA30D9C19182524009FE22B /* PasswordMotion-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "PasswordMotion-Prefix.pch"; sourceTree = "<group>"; };
+		3DA30D9D19182524009FE22B /* DHAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DHAppDelegate.h; sourceTree = "<group>"; };
+		3DA30D9E19182524009FE22B /* DHAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DHAppDelegate.m; sourceTree = "<group>"; };
+		3DA30DA119182524009FE22B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		3DA30DA319182524009FE22B /* DHViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DHViewController.h; sourceTree = "<group>"; };
+		3DA30DA419182524009FE22B /* DHViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DHViewController.m; sourceTree = "<group>"; };
+		3DA30DA619182524009FE22B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		3DA30DAC19182524009FE22B /* PasswordMotionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PasswordMotionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3DA30DAD19182524009FE22B /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		3DA30DB519182524009FE22B /* PasswordMotionTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "PasswordMotionTests-Info.plist"; sourceTree = "<group>"; };
+		3DA30DB719182524009FE22B /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		3DA30DB919182524009FE22B /* PasswordMotionTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PasswordMotionTests.m; sourceTree = "<group>"; };
+		3DA30DC319183066009FE22B /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = System/Library/Frameworks/CoreMotion.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		3DA30D8819182524009FE22B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DA30DC419183066009FE22B /* CoreMotion.framework in Frameworks */,
+				3DA30D9119182524009FE22B /* CoreGraphics.framework in Frameworks */,
+				3DA30D9319182524009FE22B /* UIKit.framework in Frameworks */,
+				3DA30D8F19182524009FE22B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DA30DA919182524009FE22B /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DA30DAE19182524009FE22B /* XCTest.framework in Frameworks */,
+				3DA30DB019182524009FE22B /* UIKit.framework in Frameworks */,
+				3DA30DAF19182524009FE22B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3D7A5151191972A2009B0DCA /* PDKeychainBindingsController */ = {
+			isa = PBXGroup;
+			children = (
+				3D7A5152191972A2009B0DCA /* PDKeychainBindings.h */,
+				3D7A5153191972A2009B0DCA /* PDKeychainBindings.m */,
+				3D7A5154191972A2009B0DCA /* PDKeychainBindingsController.h */,
+				3D7A5155191972A2009B0DCA /* PDKeychainBindingsController.m */,
+			);
+			path = PDKeychainBindingsController;
+			sourceTree = "<group>";
+		};
+		3DA30D8219182524009FE22B = {
+			isa = PBXGroup;
+			children = (
+				3DA30D9419182524009FE22B /* PasswordMotion */,
+				3DA30DB319182524009FE22B /* PasswordMotionTests */,
+				3DA30D8D19182524009FE22B /* Frameworks */,
+				3DA30D8C19182524009FE22B /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		3DA30D8C19182524009FE22B /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3DA30D8B19182524009FE22B /* PasswordMotion.app */,
+				3DA30DAC19182524009FE22B /* PasswordMotionTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3DA30D8D19182524009FE22B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3DA30DC319183066009FE22B /* CoreMotion.framework */,
+				3DA30D8E19182524009FE22B /* Foundation.framework */,
+				3DA30D9019182524009FE22B /* CoreGraphics.framework */,
+				3DA30D9219182524009FE22B /* UIKit.framework */,
+				3DA30DAD19182524009FE22B /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3DA30D9419182524009FE22B /* PasswordMotion */ = {
+			isa = PBXGroup;
+			children = (
+				3D7A5151191972A2009B0DCA /* PDKeychainBindingsController */,
+				3DA30D9D19182524009FE22B /* DHAppDelegate.h */,
+				3DA30D9E19182524009FE22B /* DHAppDelegate.m */,
+				3DA30DA019182524009FE22B /* Main.storyboard */,
+				3DA30DA319182524009FE22B /* DHViewController.h */,
+				3DA30DA419182524009FE22B /* DHViewController.m */,
+				3DA30DA619182524009FE22B /* Images.xcassets */,
+				3DA30D9519182524009FE22B /* Supporting Files */,
+			);
+			path = PasswordMotion;
+			sourceTree = "<group>";
+		};
+		3DA30D9519182524009FE22B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3DA30D9619182524009FE22B /* PasswordMotion-Info.plist */,
+				3DA30D9719182524009FE22B /* InfoPlist.strings */,
+				3DA30D9A19182524009FE22B /* main.m */,
+				3DA30D9C19182524009FE22B /* PasswordMotion-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		3DA30DB319182524009FE22B /* PasswordMotionTests */ = {
+			isa = PBXGroup;
+			children = (
+				3DA30DB919182524009FE22B /* PasswordMotionTests.m */,
+				3DA30DB419182524009FE22B /* Supporting Files */,
+			);
+			path = PasswordMotionTests;
+			sourceTree = "<group>";
+		};
+		3DA30DB419182524009FE22B /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3DA30DB519182524009FE22B /* PasswordMotionTests-Info.plist */,
+				3DA30DB619182524009FE22B /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		3DA30D8A19182524009FE22B /* PasswordMotion */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DA30DBD19182524009FE22B /* Build configuration list for PBXNativeTarget "PasswordMotion" */;
+			buildPhases = (
+				3DA30D8719182524009FE22B /* Sources */,
+				3DA30D8819182524009FE22B /* Frameworks */,
+				3DA30D8919182524009FE22B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PasswordMotion;
+			productName = PasswordMotion;
+			productReference = 3DA30D8B19182524009FE22B /* PasswordMotion.app */;
+			productType = "com.apple.product-type.application";
+		};
+		3DA30DAB19182524009FE22B /* PasswordMotionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3DA30DC019182524009FE22B /* Build configuration list for PBXNativeTarget "PasswordMotionTests" */;
+			buildPhases = (
+				3DA30DA819182524009FE22B /* Sources */,
+				3DA30DA919182524009FE22B /* Frameworks */,
+				3DA30DAA19182524009FE22B /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3DA30DB219182524009FE22B /* PBXTargetDependency */,
+			);
+			name = PasswordMotionTests;
+			productName = PasswordMotionTests;
+			productReference = 3DA30DAC19182524009FE22B /* PasswordMotionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		3DA30D8319182524009FE22B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = DH;
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = BinaryBoy;
+				TargetAttributes = {
+					3DA30DAB19182524009FE22B = {
+						TestTargetID = 3DA30D8A19182524009FE22B;
+					};
+				};
+			};
+			buildConfigurationList = 3DA30D8619182524009FE22B /* Build configuration list for PBXProject "PasswordMotion" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 3DA30D8219182524009FE22B;
+			productRefGroup = 3DA30D8C19182524009FE22B /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				3DA30D8A19182524009FE22B /* PasswordMotion */,
+				3DA30DAB19182524009FE22B /* PasswordMotionTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		3DA30D8919182524009FE22B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DA30DA719182524009FE22B /* Images.xcassets in Resources */,
+				3DA30D9919182524009FE22B /* InfoPlist.strings in Resources */,
+				3DA30DA219182524009FE22B /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DA30DAA19182524009FE22B /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DA30DB819182524009FE22B /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3DA30D8719182524009FE22B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DA30D9F19182524009FE22B /* DHAppDelegate.m in Sources */,
+				3D7A5156191972A2009B0DCA /* PDKeychainBindings.m in Sources */,
+				3DA30DA519182524009FE22B /* DHViewController.m in Sources */,
+				3D7A5157191972A2009B0DCA /* PDKeychainBindingsController.m in Sources */,
+				3DA30D9B19182524009FE22B /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		3DA30DA819182524009FE22B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3DA30DBA19182524009FE22B /* PasswordMotionTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3DA30DB219182524009FE22B /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 3DA30D8A19182524009FE22B /* PasswordMotion */;
+			targetProxy = 3DA30DB119182524009FE22B /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		3DA30D9719182524009FE22B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3DA30D9819182524009FE22B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		3DA30DA019182524009FE22B /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3DA30DA119182524009FE22B /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		3DA30DB619182524009FE22B /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				3DA30DB719182524009FE22B /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		3DA30DBB19182524009FE22B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		3DA30DBC19182524009FE22B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		3DA30DBE19182524009FE22B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PasswordMotion/PasswordMotion-Prefix.pch";
+				INFOPLIST_FILE = "PasswordMotion/PasswordMotion-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		3DA30DBF19182524009FE22B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PasswordMotion/PasswordMotion-Prefix.pch";
+				INFOPLIST_FILE = "PasswordMotion/PasswordMotion-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		3DA30DC119182524009FE22B /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PasswordMotion.app/PasswordMotion";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PasswordMotion/PasswordMotion-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "PasswordMotionTests/PasswordMotionTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		3DA30DC219182524009FE22B /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/PasswordMotion.app/PasswordMotion";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "PasswordMotion/PasswordMotion-Prefix.pch";
+				INFOPLIST_FILE = "PasswordMotionTests/PasswordMotionTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3DA30D8619182524009FE22B /* Build configuration list for PBXProject "PasswordMotion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DA30DBB19182524009FE22B /* Debug */,
+				3DA30DBC19182524009FE22B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3DA30DBD19182524009FE22B /* Build configuration list for PBXNativeTarget "PasswordMotion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DA30DBE19182524009FE22B /* Debug */,
+				3DA30DBF19182524009FE22B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3DA30DC019182524009FE22B /* Build configuration list for PBXNativeTarget "PasswordMotionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3DA30DC119182524009FE22B /* Debug */,
+				3DA30DC219182524009FE22B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 3DA30D8319182524009FE22B /* Project object */;
+}
