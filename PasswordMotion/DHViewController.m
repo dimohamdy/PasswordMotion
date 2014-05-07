@@ -23,12 +23,6 @@
         mm.deviceMotionUpdateInterval=1.0/60.0;
         [mm startDeviceMotionUpdatesToQueue:[NSOperationQueue currentQueue] withHandler:^(CMDeviceMotion *motion, NSError *error) {
             
-//            CMAttitude*currentAttitude=motion.attitude;
-//            float roll=currentAttitude.roll;
-//            float pitch=currentAttitude.pitch;
-//            float yaw=currentAttitude.yaw;
-            
-            
             
             CMAcceleration currentAcceleration=motion.userAcceleration;
           txtX.text=  [NSString stringWithFormat:@"%.2f",currentAcceleration.x];
